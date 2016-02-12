@@ -58,9 +58,14 @@ a:focus {
 }
 
 .landing-logo {
-    max-height: 100px;
+    max-height: 121px;
 }
-
+#landing-top-logo{
+    width:100px;
+}
+#landing-footer-logo{
+    height:53px;
+}
 .light {
     font-weight: 400;
 }
@@ -192,7 +197,12 @@ a:focus {
         font-size: 26px;
     }
 }
-
+.font-weight-normal{
+    font-weight:normal;
+}
+.font-weight-100{
+    font-weight:100;
+}
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -270,6 +280,11 @@ a:focus {
 .content-section {
     padding-top: 100px;
 }
+.content-section-sm {
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
 
 .download-section {
     width: 100%;
@@ -330,6 +345,20 @@ a:focus {
     background-color: #3cc0cb;
 }
 
+.btn-black
+{
+    border: 1px solid #333;
+    color: #333;
+    background-color: transparent;
+}
+.btn-black:hover,
+.btn-black:focus {
+    border: 1px solid #03ccd3;
+    outline: 0;
+    color: #fff;
+    background-color: #03ccd3
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -383,3 +412,32 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+/*** MARGIN ***/
+.margin-top-lg{
+    margin-top:40px;
+}
+.margin-top-md{
+    margin-top:25px;
+}
+.margin-top-sm{
+    margin-top:10px;
+}
+.margin-top-xs{
+    margin-top:5px;
+}
+.margin-bottom-lg{
+    margin-bottom:40px;
+}
+.margin-bottom-md{
+    margin-bottom:25px;
+}
+.margin-bottom-sm{
+    margin-bottom:10px;
+}
+.margin-bottom-xs{
+    margin-bottom:5px;
+}
+
+
+
