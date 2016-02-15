@@ -330,8 +330,8 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #3cc0cb;
-    color: #000;
+    border: 1px solid #333;
+    color: #333;
     /*color: #3cc0cb;*/
     background-color: transparent;
     /*background-color: #3cc0cb;*/
@@ -341,7 +341,7 @@ a:focus {
 {
     border: 1px solid #3cc0cb;
     outline: 0;
-    color: #FFF;
+    color: #000;
     background-color: #3cc0cb;
 }
 
@@ -355,7 +355,7 @@ a:focus {
 .btn-black:focus {
     border: 1px solid #03ccd3;
     outline: 0;
-    color: #fff;
+    color: #000;
     background-color: #03ccd3
 }
 
