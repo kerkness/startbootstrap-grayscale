@@ -174,12 +174,6 @@ a:focus {
     text-align: center;
     color: #000;
     /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
-    background: url(../../assets/peter_landing.jpg) no-repeat bottom center scroll;
-    background-color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 .intro .intro-body {
@@ -190,6 +184,16 @@ a:focus {
 .intro .intro-body .brand-heading {
     font-size: 40px;
 }
+
+#landing-bg{
+    background: url(../../assets/peter_landing.jpg) no-repeat bottom center scroll;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 .intro .intro-body .intro-text {
     font-size: 18px;
@@ -217,6 +221,10 @@ a:focus {
 }
 .font-weight-100{
     font-weight:100;
+}
+
+.font-weight-300{
+    font-weight:300;
 }
 .btn-circle {
     width: 70px;
@@ -414,35 +422,35 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-/*#topLoginBtn{*/
-    /*color:#ffffff;*/
-/*}*/
-/*#topLoginBtn:hover{*/
-    /*background-color:#02B1C1;*/
-    /*border-color:#02B1C1;*/
-    /*color:#fff;*/
-/*}*/
-/*#topLoginBtn.active, #topLoginBtn:active, .open>.dropdown-toggle#topLoginBtn{*/
-    /*border-color:#02B1C1;*/
-    /*background-color:#02B1C1;*/
-/*}*/
-/*#topLoginBtn.focus, #topLoginBtn:focus{*/
-    /*color:#fff;*/
-    /*background-color:#02B1C1;*/
-    /*border-color:#02B1C1;*/
-/*}*/
-/*#mobileLoginBtn{*/
-    /*margin:8px 10px 0 0;*/
-    /*color:#1cbeca;*/
-/*}*/
-/*#mobileLoginBtn:hover{*/
-    /*background-color:#1cbeca;*/
-    /*color:#fff;*/
-/*}*/
+#topLoginBtn{
+    color:#ffffff;
+}
+#topLoginBtn:hover{
+    background-color:#02B1C1;
+    border-color:#02B1C1;
+    color:#fff;
+}
+#topLoginBtn.active, #topLoginBtn:active, .open>.dropdown-toggle#topLoginBtn{
+    border-color:#02B1C1;
+    background-color:#02B1C1;
+}
+#topLoginBtn.focus, #topLoginBtn:focus{
+    color:#fff;
+    background-color:#02B1C1;
+    border-color:#02B1C1;
+}
+#mobileLoginBtn{
+    margin:8px 10px 0 0;
+    color:#1cbeca;
+}
+#mobileLoginBtn:hover{
+    background-color:#1cbeca;
+    color:#fff;
+}
 
-/*.width-200{*/
-    /*width:200px;*/
-/*}*/
+.width-200{
+    width:200px;
+}
 
 /*** MARGIN ***/
 .margin-top-lg{
@@ -475,6 +483,3 @@ body {
     text-transform:initial;
 }
 
-.text-weight-300{
-    font-weight:300;
-}
